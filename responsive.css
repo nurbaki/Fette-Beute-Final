@@ -1,0 +1,204 @@
+@font-face {
+    font-family: TitilliumText003;
+    src: url("./02_Schriften/TitilliumText22L003.otf") format("opentype");
+  }
+  @font-face {
+    font-family: TitilliumText004;
+    src: url("./02_Schriften/TitilliumText22L004.otf") format("opentype");
+  }
+  @font-face {
+    font-family: TitilliumText005;
+    src: url("./02_Schriften/TitilliumText22L005.otf") format("opentype");
+}
+
+body{
+    margin: 0;
+}
+.img-fluid{
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.img-2{
+    display: block;
+    width: auto;
+    height: 100vh;
+}
+
+.img-3{
+    width: 25%;
+    height: auto;
+}
+
+.row::after {       /*Satirlarin olusmasi icin olmak zorunda*/
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {  /* Her bir sütunun saga yapisip satirdaki yerini almai icin. bu örnekte aralarinda bosluk istemedim.*/
+    float: left;
+}
+
+/* @media only screen and (device-width: 375px) kann auch benutzen für Iphone 13 mini */
+
+@media only screen and (min-width: 375px) and (max-width: 1023px) {     
+    .page{
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .box1 {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    
+    .box1 h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-family: TitilliumText005;
+    }
+    
+    .box1 p {
+        margin-top: 1rem;
+        color: white;
+        font-weight: 100;
+        font-size: 1rem;
+        line-height: 1,5rem;
+        font-family: TitilliumText003;
+    }
+    
+    .box1 a {
+      margin-bottom: 1rem;
+        color: white;
+        font-weight: 500;
+        font-size: 1rem;
+        padding-bottom: 10vw;
+        font-family: TitilliumText004;
+    }
+    .txt-for-desktop{
+        display: none;
+    }
+    .foto-for-desktop{
+        display: none;
+    }
+    .foto1{
+        margin-left: 10vw;
+    }
+    
+    .foto2{
+        margin-left: 15vw;
+        margin-top: -11vh;
+    }
+    
+    .foto3{
+        margin-left: 50vw;
+        margin-top: -10vh;
+    }
+
+    .Stil{
+      display: inline-flex;
+      transform: rotate(-90deg);
+      position: relative;
+      left: -4vh;
+      bottom: 2vh;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+      
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .page{
+        overflow: hidden;
+    }
+    .box1{
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .box1 h1 {
+        color: white;
+        font-weight: 4rem;
+        font-size: 80px;
+        font-family: TitilliumText005;
+
+    }
+    
+    .box1 p {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: TitilliumText003;
+    }
+    
+    .box1 a {
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        padding-bottom: 10vw;
+    }
+
+    .txt-for-mobile{
+        display: none;
+    }
+    .foto-for-mobile{
+        display: none;
+    }
+
+    .right-side{
+        display: block;
+        position: relative;
+        left: 42%;
+        width: auto;
+        height: 100vh;
+    }
+    .left-side{
+        display: block;
+        width: 42%;
+        height: 100vh;
+    }
+
+    .img-1024{
+        width: 135%;
+        height: auto;
+        position:relative;
+        bottom: 92%
+    }
+
+
+
+    .Stil{
+        transform: rotate(-90deg);
+        position: relative;
+        left: 0vw;
+        bottom: 2vh;
+    }
+}
+
+
+
+/* Desktop 1920px */
+/* @media only screen and (min-width: 1920px) */
+
+
+/* Desktop > 1920px  */
+/* @media only screen and (min-width: 1921px) */
