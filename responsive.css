@@ -183,9 +183,6 @@ body{
         position:relative;
         bottom: 92%
     }
-
-
-
     .Stil{
         transform: rotate(-90deg);
         position: relative;
@@ -195,10 +192,11 @@ body{
 }
 
 
+/* Ich konnte nicht im Detail für 1920px und höher studieren. Ihr aktueller Zustand ist im Projekt nicht wie gewünscht. */
 
 /* Desktop 1920px */
 /* @media only screen and (min-width: 1920px) */
 
-
+   
 /* Desktop > 1920px  */
 /* @media only screen and (min-width: 1921px) */
