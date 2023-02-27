@@ -33,12 +33,12 @@ body{
     height: auto;
 }
 
-.row::after {       /*Satirlarin olusmasi icin olmak zorunda*/
+.row::after {    
     content: "";
     clear: both;
     display: table;
 }
-[class*="col-"] {  /* Her bir sütunun saga yapisip satirdaki yerini almai icin. bu örnekte aralarinda bosluk istemedim.*/
+[class*="col-"] {
     float: left;
 }
 
