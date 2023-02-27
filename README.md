@@ -3,7 +3,7 @@
 375px Iphone 13 Screen and 1024px Desktop Screen are ready. 
 ### Link: https://nurbaki.github.io/Fette-Beute-Final/
 
-Screenshots from the part of the Project I did.
+#### Screenshots from the part of the Project I did.
 
 Dektop 1024px
 ![Screen-1024-page-2](https://user-images.githubusercontent.com/51860165/221516990-a674f6b9-b20b-48f5-911e-169e328ba6aa.png)
