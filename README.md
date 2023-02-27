@@ -1,7 +1,7 @@
 # Task-Fette-Beute
-##This is a Test Project for Fette-Beute.
+## This is a Test Project for Fette-Beute.
 375px Iphone 13 Screen and 1024px Desktop Screen are ready. 
-###Link: https://nurbaki.github.io/Fette-Beute-Final/
+### Link: https://nurbaki.github.io/Fette-Beute-Final/
 
 Screenshots from the part of the Project I did.
 
